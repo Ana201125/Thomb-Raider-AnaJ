@@ -1,0 +1,509 @@
+
+/* CONFIGURACAO GERAL */
+
+body {
+    background-color: #0B0B0B;
+    color: #F5E6C8;
+    font-family: Georgia, serif;
+}
+
+/* TOPO */
+
+.fundo-preto {
+    background-color: #0B0B0B;
+}
+
+.topo {
+    padding: 20px;
+    color: #4B286B;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.letra-logo {
+    color: #D4AF37;
+}
+
+/* MENU */
+
+.topo-fluido {
+    border-top: 1px solid #D4AF37;
+}
+
+.menu {
+    display: flex;
+    gap: 5px;
+    padding: 0;
+}
+
+.menu li {
+    flex-grow: 1;
+    list-style: none;
+    text-align: center;
+}
+
+.menu li a {
+    color: #F5E6C8;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #4B286B;
+    color: #F5E6C8;
+}
+
+/* CONTEUDO */
+
+.conteudo {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+/* BANNER PRINCIPAL */
+
+.banner-lara {
+    width: 100%;
+    height: 550px;
+
+ 
+
+    display: flex;
+    align-items: center;
+}
+
+.texto-banner {
+    background-color: rgba(11, 11, 11, 0.65);
+    padding: 30px;
+    max-width: 550px;
+}
+
+.texto-banner h1 {
+    color: #D4AF37;
+    font-size: 55px;
+}
+
+.texto-banner h2 {
+    color: #F5E6C8;
+}
+
+.texto-banner p {
+    line-height: 1.5;
+}
+
+/* BOTAO */
+
+.botao {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 15px;
+    border: 1px solid #D4AF37;
+    color: #F5E6C8;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #4B286B;
+}
+
+/* SOBRE O JOGO */
+
+.imagem-sobre img {
+    width: 100%;
+    height: 350px;
+  
+}
+
+.texto-sobre {
+    background-color: #1B1B1B;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-sobre h2 {
+    color: #D4AF37;
+}
+
+/* DESTAQUES */
+
+.destaques {
+    background-color: #0B0B0B;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.destaques h2 {
+    color: #D4AF37;
+    margin-bottom: 25px;
+}
+
+.grade-destaques {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #1B1B1B;
+    border: 1px solid #D4AF37;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 15px;
+    color: #F5E6C8;
+}
+
+/* BANNER AVENTURA */
+
+.banner-aventura {
+    height: 300px;
+
+    background-image: url("img/aventura.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: #F5E6C8;
+}
+
+/* RODAPE */
+
+.rodape {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #F5E6C8;
+}
+
+/* BANNER DA GALERIA */
+
+.banner-galeria {
+    width: 100%;
+    height: 350px;
+
+    background-image: url("img/fundo-galeria.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #F5E6C8;
+    text-align: center;
+}
+
+.banner-galeria h1 {
+    color: #D4AF37;
+    font-size: 40px;
+}
+
+
+/* TITULO DA GALERIA */
+
+.titulo-galeria {
+    text-align: center;
+    color: #D4AF37;
+    padding: 30px;
+}
+
+
+/* GRADE DAS FOTOS */
+
+.grade-galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+
+/* CARDS DAS FOTOS */
+
+.foto {
+    background-color: #1B1B1B;
+    border: 1px solid #D4AF37;
+    text-align: center;
+}
+
+.foto img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.foto h3 {
+    padding: 15px;
+    color: #F5E6C8;
+}
+
+
+/* VIDEOS */
+
+.videos {
+    background-color: #1B1B1B;
+    padding: 40px;
+    text-align: center;
+}
+
+.videos h2 {
+    color: #D4AF37;
+    margin-bottom: 15px;
+}
+
+.videos p {
+    margin-bottom: 25px;
+}
+
+
+/* ESPACO DO VIDEO */
+
+.video {
+    width: 100%;
+    height: 450px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #D4AF37;
+}
+
+/* BANNER SOBRE */
+
+.banner-sobre {
+    width: 100%;
+    height: 350px;
+
+    background-image: url("img/fundo-sobre.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #F5E6C8;
+    text-align: center;
+}
+
+.banner-sobre h1 {
+    color: #D4AF37;
+    font-size: 40px;
+}
+
+
+/* HISTORIA */
+
+.historia {
+    background-color: #1B1B1B;
+    padding: 40px;
+    color: #F5E6C8;
+}
+
+.historia h2 {
+    color: #D4AF37;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.historia p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+
+/* TITULO DOS JOGOS */
+
+.titulo-sobre {
+    text-align: center;
+    color: #D4AF37;
+    padding: 30px;
+}
+
+
+/* GRADE DOS JOGOS */
+
+.grade-sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    padding-bottom: 40px;
+}
+
+
+/* CARDS */
+
+.card-sobre {
+    background-color: #1B1B1B;
+    border: 1px solid #D4AF37;
+    text-align: center;
+}
+
+.card-sobre img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-sobre h3 {
+    color: #D4AF37;
+    padding: 10px;
+}
+
+.card-sobre p {
+    color: #F5E6C8;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+
+/* BANNER FINAL */
+
+.banner-universo {
+    width: 100%;
+    height: 300px;
+
+    background-image: url("img/fundo-universo.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #F5E6C8;
+    text-align: center;
+}
+
+.banner-universo h2 {
+    color: #D4AF37;
+    margin-bottom: 15px;
+}
+
+/* BANNER CONTATO */
+
+.banner-contato {
+    width: 100%;
+    height: 300px;
+
+    background-image: url("img/fundo-contato.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #F5E6C8;
+    text-align: center;
+}
+
+.banner-contato h1 {
+    color: #D4AF37;
+    font-size: 40px;
+}
+
+
+/* APRESENTACAO */
+
+.apresentacao-contato {
+    text-align: center;
+    padding: 40px;
+}
+
+.apresentacao-contato h2 {
+    color: #D4AF37;
+    margin-bottom: 20px;
+}
+
+.apresentacao-contato p {
+    margin-bottom: 10px;
+}
+
+
+/* FORMULARIO */
+
+.formulario-contato {
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+
+    background-color: #1B1B1B;
+    border: 1px solid #D4AF37;
+}
+
+
+/* TEXTOS */
+
+.formulario-contato label {
+    display: block;
+    color: #D4AF37;
+    margin-bottom: 8px;
+}
+
+
+/* CAMPOS */
+
+.formulario-contato input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+
+    background-color: #0B0B0B;
+    color: #F5E6C8;
+    border: 1px solid #4B286B;
+}
+
+
+/* MENSAGEM */
+
+.formulario-contato textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px;
+    margin-bottom: 20px;
+
+    background-color: #0B0B0B;
+    color: #F5E6C8;
+    border: 1px solid #4B286B;
+}
+
+
+/* BOTAO */
+
+.formulario-contato button {
+    width: 100%;
+    padding: 15px;
+
+    background-color: #4B286B;
+    color: #F5E6C8;
+
+    border: 1px solid #D4AF37;
+    cursor: pointer;
+}
+
+.formulario-contato button:hover {
+    background-color: #D4AF37;
+    color: #0B0B0B;
+}
